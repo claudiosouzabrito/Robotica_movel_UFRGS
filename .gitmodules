@@ -1,0 +1,12 @@
+[submodule "phi_p3dx_aria"]
+	path = phi_p3dx_aria
+	url = https://github.com/claudiosouzabrito/phi_p3dx_aria.git
+[submodule "phi_p3dx_description"]
+	path = phi_p3dx_description
+	url = https://github.com/claudiosouzabrito/phi_p3dx_description.git
+[submodule "phi_p3dx_navigation"]
+	path = phi_p3dx_navigation
+	url = https://github.com/claudiosouzabrito/phi_p3dx_navigation.git
+[submodule "phi_p3dx_planning"]
+	path = phi_p3dx_planning
+	url = https://github.com/claudiosouzabrito/phi_p3dx_planning.git
