@@ -10,3 +10,6 @@
 [submodule "phi_p3dx_planning"]
 	path = phi_p3dx_planning
 	url = https://github.com/claudiosouzabrito/phi_p3dx_planning.git
+[submodule "phi_p3dx_mapping"]
+	path = phi_p3dx_mapping
+	url = git@github.com:claudiosouzabrito/phi_p3dx_mapping.git
