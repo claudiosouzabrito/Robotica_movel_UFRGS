@@ -1,0 +1,33 @@
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/RRT_cinematic.cpp:[m[K In member function ‘[01m[Kvoid RRT::[01;32m[Kpublish_tree[m[K()[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/RRT_cinematic.cpp:133:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<RRT::Nodo>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  133 |       for(int j = 0; [01;35m[Kj < nodos.size()[m[K; j++){
+      |                      [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/RRT_cinematic.cpp:[m[K In member function ‘[01m[Kvirtual void RRT::[01;32m[Kcontrol_loop[m[K()[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/RRT_cinematic.cpp:304:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KANGLE_THRESHOLD[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  304 |     const double [01;35m[KANGLE_THRESHOLD[m[K = 0.3;    // radianos (~17 graus)
+      |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:[m[K In member function ‘[01m[Kvoid PlanningNode::[01;32m[Ksonar_callback[m[K(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:127:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumbytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |   int [01;35m[Knumbytes[m[K = msg->data.size();
+      |       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:128:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |   int [01;35m[Knumfields[m[K = msg->fields.size();
+      |       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/RRT.cpp:[m[K In member function ‘[01m[Kvoid RRT::[01;32m[Kpublish_tree[m[K()[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/RRT.cpp:130:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<geometry_msgs::msg::Point_<std::allocator<void> >, std::allocator<geometry_msgs::msg::Point_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  130 |       for(int j = 0; [01;35m[Kj < nodes_marker_.points.size()[m[K; j++){
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:[m[K In member function ‘[01m[Kvoid PlanningNode::[01;32m[Ksonar_callback[m[K(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:127:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumbytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |   int [01;35m[Knumbytes[m[K = msg->data.size();
+      |       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:128:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |   int [01;35m[Knumfields[m[K = msg->fields.size();
+      |       [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:[m[K In member function ‘[01m[Kvoid PlanningNode::[01;32m[Ksonar_callback[m[K(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:127:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumbytes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  127 |   int [01;35m[Knumbytes[m[K = msg->data.size();
+      |       [01;35m[K^~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_planning/src/planning_node.cpp:128:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knumfields[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |   int [01;35m[Knumfields[m[K = msg->fields.size();
+      |       [01;35m[K^~~~~~~~~[m[K

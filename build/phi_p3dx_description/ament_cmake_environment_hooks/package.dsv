@@ -1,0 +1,4 @@
+source;share/phi_p3dx_description/local_setup.bash
+source;share/phi_p3dx_description/local_setup.dsv
+source;share/phi_p3dx_description/local_setup.sh
+source;share/phi_p3dx_description/local_setup.zsh

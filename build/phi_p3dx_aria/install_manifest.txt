@@ -1,0 +1,16 @@
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/lib/phi_p3dx_aria/phi_p3dx
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/ament_index/resource_index/package_run_dependencies/phi_p3dx_aria
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/ament_index/resource_index/parent_prefix_path/phi_p3dx_aria
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/ament_prefix_path.sh
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/ament_prefix_path.dsv
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/path.sh
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/path.dsv
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.bash
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.sh
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.zsh
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.dsv
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/package.dsv
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/ament_index/resource_index/packages/phi_p3dx_aria
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/cmake/phi_p3dx_ariaConfig.cmake
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/cmake/phi_p3dx_ariaConfig-version.cmake
+/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/package.xml

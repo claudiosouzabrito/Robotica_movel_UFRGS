@@ -1,0 +1,11 @@
+source;share/phi_p3dx_mapping/hook/cmake_prefix_path.ps1
+source;share/phi_p3dx_mapping/hook/cmake_prefix_path.dsv
+source;share/phi_p3dx_mapping/hook/cmake_prefix_path.sh
+source;share/phi_p3dx_mapping/hook/pythonpath.ps1
+source;share/phi_p3dx_mapping/hook/pythonpath.dsv
+source;share/phi_p3dx_mapping/hook/pythonpath.sh
+source;share/phi_p3dx_mapping/local_setup.bash
+source;share/phi_p3dx_mapping/local_setup.dsv
+source;share/phi_p3dx_mapping/local_setup.ps1
+source;share/phi_p3dx_mapping/local_setup.sh
+source;share/phi_p3dx_mapping/local_setup.zsh

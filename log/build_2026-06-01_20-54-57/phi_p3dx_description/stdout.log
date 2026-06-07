@@ -1,0 +1,100 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_description
+-- Install configuration: ""
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/pioneer3dx_gz.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/pioneer3dx_wheel.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/sensors
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/sensors/pioneer3dx_camera.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/sensors/pioneer3dx_sensors.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/sensors/pioneer3dx_laser.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/sensors/pioneer3dx_sonar.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/sensors/pioneer3dx_imu.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/pioneer3dx.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/pioneer3dx_body.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/pioneer3dx_swivel.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/battery_block.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/inertia_tensors.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/pioneer3dx_chassis.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/urdf/p3dx/pioneer3dx_materials.xacro
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/floor
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/floor/meshes
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/floor/meshes/mesh.dae
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/floor/model.config
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/floor/model.sdf
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/house
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/house/meshes
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/house/meshes/mesh.dae
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/house/model.config
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/obstacle2x2/house/model.sdf
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/right_wheel.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/top.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/left_hubcap.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/left_wheel.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/front_rim.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/swivel.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/center_wheel.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/chassis.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/back_rim.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/Coordinates
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/right_hubcap.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/front_sonar.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/center_hubcap.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/p3dx/meshes/back_sonar.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/laser
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/laser/meshes
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/laser/meshes/hokuyo.dae
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/laser/meshes/sick_lms100.stl
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/camera
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/camera/meshes
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/models/camera/meshes/d435.dae
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/worlds
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/worlds/empty_world.sdf
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/worlds/obstacles.sdf
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/rviz
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/rviz/rviz_map.rviz
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/rviz/rviz.rviz
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/indoor.pgm
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/obstacles.yaml
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/indoor_costmap.pgm
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/obstacles_costmap.pgm
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/indoor.map
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/obstacles.map
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/indoor.yaml
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/map/obstacles.pgm
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/ament_index/resource_index/package_run_dependencies/phi_p3dx_description
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/ament_index/resource_index/parent_prefix_path/phi_p3dx_description
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/environment/ament_prefix_path.sh
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/environment/ament_prefix_path.dsv
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/environment/path.sh
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/environment/path.dsv
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/local_setup.bash
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/local_setup.sh
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/local_setup.zsh
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/local_setup.dsv
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/package.dsv
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/ament_index/resource_index/packages/phi_p3dx_description
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/cmake/phi_p3dx_descriptionConfig.cmake
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/cmake/phi_p3dx_descriptionConfig-version.cmake
+-- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description/share/phi_p3dx_description/package.xml

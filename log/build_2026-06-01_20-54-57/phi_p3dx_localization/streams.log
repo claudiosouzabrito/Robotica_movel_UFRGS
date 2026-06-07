@@ -1,0 +1,109 @@
+[0.025s] Invoking command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization': AMENT_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_planning:/home/cloud/robotica-ws/install/phi_p3dx_mapping:/home/cloud/robotica-ws/install/phi_p3dx_navigation:/home/cloud/robotica-ws/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_aria:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_localization -DCMAKE_INSTALL_PREFIX=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization
+[0.134s] -- The C compiler identification is GNU 13.3.0
+[0.189s] -- The CXX compiler identification is GNU 13.3.0
+[0.209s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.320s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.320s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.331s] -- Detecting CXX compiler ABI info
+[0.426s] -- Detecting CXX compiler ABI info - done
+[0.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.446s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.617s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.767s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.815s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.830s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.011s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.016s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.143s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.169s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.192s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.289s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.316s] -- Found geometry_msgs: 5.3.7 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.344s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.383s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.421s] -- Found tf2: 0.36.20 (/opt/ros/jazzy/share/tf2/cmake)
+[1.428s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.449s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.450s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.450s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.793s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.890s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.890s] -- Configured cppcheck include dirs: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_localization/include
+[1.890s] -- Configured cppcheck exclude dirs and/or files: 
+[1.890s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.891s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.891s] -- Added test 'lint_cmake' to check CMake code style
+[1.892s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.893s] -- Added test 'uncrustify' to check C / C++ code style
+[1.893s] -- Configured uncrustify additional arguments: 
+[1.893s] -- Added test 'xmllint' to check XML markup files
+[1.894s] -- Configuring done (1.9s)
+[1.906s] -- Generating done (0.0s)
+[1.909s] -- Build files have been written to: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization
+[1.920s] Invoked command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization' returned '0': AMENT_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_planning:/home/cloud/robotica-ws/install/phi_p3dx_mapping:/home/cloud/robotica-ws/install/phi_p3dx_navigation:/home/cloud/robotica-ws/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_aria:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_localization -DCMAKE_INSTALL_PREFIX=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization
+[1.921s] Invoking command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization': AMENT_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_planning:/home/cloud/robotica-ws/install/phi_p3dx_mapping:/home/cloud/robotica-ws/install/phi_p3dx_navigation:/home/cloud/robotica-ws/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_aria:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization -- -j12 -l12
+[1.975s] [ 33%] [32mBuilding CXX object CMakeFiles/localization_example_cpp.dir/src/localization_example.cpp.o[0m
+[1.975s] [ 66%] [32mBuilding CXX object CMakeFiles/localization_example_cpp.dir/src/localization_node.cpp.o[0m
+[1.984s] [ 66%] Built target ament_cmake_python_copy_phi_p3dx_localization
+[2.270s] running egg_info
+[2.271s] creating phi_p3dx_localization.egg-info
+[2.296s] writing phi_p3dx_localization.egg-info/PKG-INFO
+[2.296s] writing dependency_links to phi_p3dx_localization.egg-info/dependency_links.txt
+[2.296s] writing top-level names to phi_p3dx_localization.egg-info/top_level.txt
+[2.296s] writing manifest file 'phi_p3dx_localization.egg-info/SOURCES.txt'
+[2.372s] reading manifest file 'phi_p3dx_localization.egg-info/SOURCES.txt'
+[2.376s] writing manifest file 'phi_p3dx_localization.egg-info/SOURCES.txt'
+[2.437s] [ 66%] Built target ament_cmake_python_build_phi_p3dx_localization_egg
+[14.908s] [100%] [32m[1mLinking CXX executable localization_example_cpp[0m
+[15.308s] [100%] Built target localization_example_cpp
+[15.317s] Invoked command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization' returned '0': AMENT_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_planning:/home/cloud/robotica-ws/install/phi_p3dx_mapping:/home/cloud/robotica-ws/install/phi_p3dx_navigation:/home/cloud/robotica-ws/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_aria:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization -- -j12 -l12
+[15.318s] Invoking command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization': AMENT_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_planning:/home/cloud/robotica-ws/install/phi_p3dx_mapping:/home/cloud/robotica-ws/install/phi_p3dx_navigation:/home/cloud/robotica-ws/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_aria:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization
+[15.323s] -- Install configuration: ""
+[15.323s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/phi_p3dx_localization/localization_example_cpp
+[15.328s] -- Set non-toolchain portion of runtime path of "/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/phi_p3dx_localization/localization_example_cpp" to ""
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/environment/pythonpath.sh
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/environment/pythonpath.dsv
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization-0.0.0-py3.12.egg-info
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization-0.0.0-py3.12.egg-info/SOURCES.txt
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization-0.0.0-py3.12.egg-info/PKG-INFO
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization-0.0.0-py3.12.egg-info/top_level.txt
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization-0.0.0-py3.12.egg-info/dependency_links.txt
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization
+[15.328s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization/main.py
+[15.329s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization/__init__.py
+[15.355s] Listing '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization'...
+[15.355s] Compiling '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization/__init__.py'...
+[15.355s] Compiling '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/python3.12/site-packages/phi_p3dx_localization/main.py'...
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/lib/phi_p3dx_localization/localization_example_py
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/launch
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/launch/includes
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/launch/includes/bringup_map_server.launch.py
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/launch/bringup_gazebo.launch.py
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/launch/bringup_mobilesim.launch.py
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/launch/bringup_robot.launch.py
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/scripts
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/scripts/localization_example.py
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/config
+[15.359s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/config/localization.rviz
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/ament_index/resource_index/package_run_dependencies/phi_p3dx_localization
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/ament_index/resource_index/parent_prefix_path/phi_p3dx_localization
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/environment/ament_prefix_path.sh
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/environment/ament_prefix_path.dsv
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/environment/path.sh
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/environment/path.dsv
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/local_setup.bash
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/local_setup.sh
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/local_setup.zsh
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/local_setup.dsv
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/package.dsv
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/ament_index/resource_index/packages/phi_p3dx_localization
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/cmake/phi_p3dx_localizationConfig.cmake
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/cmake/phi_p3dx_localizationConfig-version.cmake
+[15.360s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_localization/share/phi_p3dx_localization/package.xml
+[15.362s] Invoked command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization' returned '0': AMENT_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_planning:/home/cloud/robotica-ws/install/phi_p3dx_mapping:/home/cloud/robotica-ws/install/phi_p3dx_navigation:/home/cloud/robotica-ws/install/phi_p3dx_description:/home/cloud/robotica-ws/install/phi_p3dx_aria:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_localization

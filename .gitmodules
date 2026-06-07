@@ -13,3 +13,6 @@
 [submodule "phi_p3dx_mapping"]
 	path = phi_p3dx_mapping
 	url = git@github.com:claudiosouzabrito/phi_p3dx_mapping.git
+[submodule "phi_p3dx_localization"]
+	path = phi_p3dx_localization
+	url = git@github.com:claudiosouzabrito/phi_p3dx_localization.git

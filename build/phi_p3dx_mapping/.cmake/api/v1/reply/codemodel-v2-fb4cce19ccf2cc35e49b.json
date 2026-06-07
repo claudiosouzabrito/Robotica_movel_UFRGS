@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a759d58c50c870baaba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "phi_p3dx_mapping",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_phi_p3dx_mapping_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_phi_p3dx_mapping_egg-51d4d6c5b672407e272c.json",
+					"name" : "ament_cmake_python_build_phi_p3dx_mapping_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_phi_p3dx_mapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_phi_p3dx_mapping-0239c804aee0f9fd4ab8.json",
+					"name" : "ament_cmake_python_copy_phi_p3dx_mapping",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exploration_example_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exploration_example_cpp-1139ef5b36a9d88b6afe.json",
+					"name" : "exploration_example_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exploring_harmonic_potential_fields::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exploring_harmonic_potential_fields-b4c7b24eef5c56fc76dc.json",
+					"name" : "exploring_harmonic_potential_fields",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_example_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_example_cpp-a9ac4dcd6a265d89ee48.json",
+					"name" : "mapping_example_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mapping_log_odds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mapping_log_odds-9aa5599783cb1797ea66.json",
+					"name" : "mapping_log_odds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phi_p3dx_mapping_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phi_p3dx_mapping_uninstall-a1c98d6880d6e7074ff3.json",
+					"name" : "phi_p3dx_mapping_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1d3becf54a969971400e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_mapping",
+		"source" : "/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_mapping"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

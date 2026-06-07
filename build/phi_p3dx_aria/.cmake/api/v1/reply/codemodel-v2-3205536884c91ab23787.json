@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-457e8497a31d53ecb4b7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "phi_p3dx_aria",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "phi_p3dx::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phi_p3dx-916a0b3940a4c6eb37e3.json",
+					"name" : "phi_p3dx",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "phi_p3dx_aria_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-phi_p3dx_aria_uninstall-8d389626972f9a308bc7.json",
+					"name" : "phi_p3dx_aria_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b3e84982bf1a4139d909.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria",
+		"source" : "/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

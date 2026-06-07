@@ -1,0 +1,7 @@
+setup.py
+phi_p3dx_navigation/__init__.py
+phi_p3dx_navigation/main.py
+phi_p3dx_navigation.egg-info/PKG-INFO
+phi_p3dx_navigation.egg-info/SOURCES.txt
+phi_p3dx_navigation.egg-info/dependency_links.txt
+phi_p3dx_navigation.egg-info/top_level.txt

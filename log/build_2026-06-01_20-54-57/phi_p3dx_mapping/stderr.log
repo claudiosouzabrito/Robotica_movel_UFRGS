@@ -1,0 +1,11 @@
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_mapping/src/exploring_harmonic_potential_fields.cpp:[m[K In member function ‘[01m[Kvirtual void ExplorationExample::[01;32m[Kon_map[m[K()[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_mapping/src/exploring_harmonic_potential_fields.cpp:207:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  207 |     if ([01;35m[Kwidth_ != map_msg_->info.width[m[K || height_ != map_msg_->info.height) {
+      |         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_mapping/src/exploring_harmonic_potential_fields.cpp:207:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  207 |     if (width_ != map_msg_->info.width || [01;35m[Kheight_ != map_msg_->info.height[m[K) {
+      |                                           [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_mapping/src/mapping_log_odds.cpp:[m[K In member function ‘[01m[Kvoid MappingExample::[01;32m[Klaser_callback[m[K(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_mapping/src/mapping_log_odds.cpp:147:46:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  147 |             if(l >= (L_MAX - 0.1)) [01;35m[Kros_value == 100[m[K;
+      |                                    [01;35m[K~~~~~~~~~~^~~~~~[m[K

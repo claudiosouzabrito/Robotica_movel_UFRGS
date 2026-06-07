@@ -1,0 +1,384 @@
+[0.009s] Invoking command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria -DCMAKE_INSTALL_PREFIX=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria
+[0.137s] -- The C compiler identification is GNU 13.3.0
+[0.216s] -- The CXX compiler identification is GNU 13.3.0
+[0.235s] -- Detecting C compiler ABI info
+[0.342s] -- Detecting C compiler ABI info - done
+[0.350s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.352s] -- Detecting C compile features
+[0.352s] -- Detecting C compile features - done
+[0.363s] -- Detecting CXX compiler ABI info
+[0.442s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.458s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.601s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.703s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.746s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.762s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.798s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.880s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.884s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.968s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.995s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.014s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.083s] -- Found nav_msgs: 5.3.7 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.140s] -- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.161s] -- Found tf2_ros: 0.36.20 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.290s] -- Found tf2_geometry_msgs: 0.36.20 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.306s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.307s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.307s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.322s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.409s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.409s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include>
+[1.409s] -- Configured cppcheck exclude dirs and/or files: 
+[1.410s] -- Added test 'lint_cmake' to check CMake code style
+[1.410s] -- Added test 'uncrustify' to check C / C++ code style
+[1.411s] -- Configured uncrustify additional arguments: 
+[1.411s] -- Added test 'xmllint' to check XML markup files
+[1.412s] -- Configuring done (1.4s)
+[1.423s] -- Generating done (0.0s)
+[1.426s] -- Build files have been written to: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria
+[1.433s] Invoked command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria -DCMAKE_INSTALL_PREFIX=/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria
+[1.434s] Invoking command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria -- -j12 -l12
+[1.485s] [ 75%] [32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/Pose.cpp.o[0m
+[1.485s] [ 75%] [32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/PhiROS2Aria.cpp.o[0m
+[1.485s] [ 75%] [32mBuilding CXX object CMakeFiles/phi_p3dx.dir/src/phi_p3dx.cpp.o[0m
+[4.478s] In file included from [01m[K/usr/local/Aria/include/Aria.h:47[m[K,
+[4.479s]                  from [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include/PhiROS2Aria.hpp:15[m[K,
+[4.479s]                  from [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:1[m[K:
+[4.479s] [01m[K/usr/local/Aria/include/ArRobot.h:[m[K In member function ‘[01m[Kvoid ArRobot::[01;32m[KsetDoNotSwitchBaud[m[K(bool)[m[K’:
+[4.480s] [01m[K/usr/local/Aria/include/ArRobot.h:1075:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KdoNotSwitchBaud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.480s]  1075 |   AREXPORT void setDoNotSwitchBaud([01;35m[Kbool doNotSwitchBaud[m[K)
+[4.480s]       |                                    [01;35m[K~~~~~^~~~~~~~~~~~~~~[m[K
+[4.519s] In file included from [01m[K/usr/local/Aria/include/Aria.h:47[m[K,
+[4.519s]                  from [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include/PhiROS2Aria.hpp:15[m[K,
+[4.519s]                  from [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/phi_p3dx.cpp:1[m[K:
+[4.520s] [01m[K/usr/local/Aria/include/ArRobot.h:[m[K In member function ‘[01m[Kvoid ArRobot::[01;32m[KsetDoNotSwitchBaud[m[K(bool)[m[K’:
+[4.520s] [01m[K/usr/local/Aria/include/ArRobot.h:1075:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KdoNotSwitchBaud[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.520s]  1075 |   AREXPORT void setDoNotSwitchBaud([01;35m[Kbool doNotSwitchBaud[m[K)
+[4.520s]       |                                    [01;35m[K~~~~~^~~~~~~~~~~~~~~[m[K
+[4.543s] In file included from [01m[K/usr/local/Aria/include/ArActionColorFollow.h:33[m[K,
+[4.543s]                  from [01m[K/usr/local/Aria/include/ArActionGroups.h:30[m[K,
+[4.543s]                  from [01m[K/usr/local/Aria/include/Aria.h:57[m[K:
+[4.544s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[Kzoom[m[K(int)[m[K’:
+[4.544s] [01m[K/usr/local/Aria/include/ArPTZ.h:118:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.544s]   118 |   AREXPORT virtual bool zoom([01;35m[Kint zoomValue[m[K) { return false; }
+[4.544s]       |                              [01;35m[K~~~~^~~~~~~~~[m[K
+[4.544s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KzoomRel[m[K(int)[m[K’:
+[4.544s] [01m[K/usr/local/Aria/include/ArPTZ.h:120:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.544s]   120 |   AREXPORT virtual bool zoomRel([01;35m[Kint zoomValue[m[K) { return false; }
+[4.544s]       |                                 [01;35m[K~~~~^~~~~~~~~[m[K
+[4.544s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KsetGain[m[K(double) const[m[K’:
+[4.544s] [01m[K/usr/local/Aria/include/ArPTZ.h:166:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.545s]   166 |   AREXPORT virtual bool setGain([01;35m[Kdouble gain[m[K) const { return false; }
+[4.545s]       |                                 [01;35m[K~~~~~~~^~~~[m[K
+[4.545s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::[01;32m[KgetGain[m[K(double) const[m[K’:
+[4.545s] [01m[K/usr/local/Aria/include/ArPTZ.h:168:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.545s]   168 |   AREXPORT virtual double getGain([01;35m[Kdouble gain[m[K) const { return 0; }
+[4.545s]       |                                   [01;35m[K~~~~~~~^~~~[m[K
+[4.545s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KsetFocus[m[K(double) const[m[K’:
+[4.545s] [01m[K/usr/local/Aria/include/ArPTZ.h:174:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.545s]   174 |   AREXPORT virtual bool setFocus([01;35m[Kdouble focus[m[K) const { return false; }
+[4.545s]       |                                  [01;35m[K~~~~~~~^~~~~[m[K
+[4.545s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::[01;32m[KgetFocus[m[K(double) const[m[K’:
+[4.545s] [01m[K/usr/local/Aria/include/ArPTZ.h:176:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.545s]   176 |   AREXPORT virtual double getFocus([01;35m[Kdouble focus[m[K) const { return 0; }
+[4.546s]       |                                    [01;35m[K~~~~~~~^~~~~[m[K
+[4.546s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KpacketHandler[m[K(ArBasePacket*)[m[K’:
+[4.546s] [01m[K/usr/local/Aria/include/ArPTZ.h:215:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.546s]   215 |   AREXPORT virtual bool packetHandler([01;35m[KArBasePacket *packet[m[K) { return false; }
+[4.546s]       |                                       [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[4.570s] In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K:
+[4.570s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::[01;32m[KsetLinesAndVertex[m[K(std::map<int, ArLineFinderSegment*>*, ArPose)[m[K’:
+[4.570s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:191:18:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::[01;32m[Koperator=[m[K(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[4.571s]   191 |       myVertex = [01;35m[Kvertex[m[K;
+[4.571s]       |                  [01;35m[K^~~~~~[m[K
+[4.571s] In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+[4.571s]                  from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+[4.571s]                  from [01m[K/usr/local/Aria/include/Aria.h:30[m[K:
+[4.572s] [01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::[01;32m[KArPose[m[K(const ArPose&)[m[K’
+[4.572s]   676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+[4.572s]       |   [01;36m[K^~~~~~[m[K
+[4.572s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::[01;32m[KsetFinal[m[K(ArPose)[m[K’:
+[4.572s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:194:64:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::[01;32m[Koperator=[m[K(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[4.572s]   194 |     void setFinal(ArPose final) { myFinalSet = true; myFinal = [01;35m[Kfinal[m[K; }
+[4.572s]       |                                                                [01;35m[K^~~~~[m[K
+[4.573s] [01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::[01;32m[KArPose[m[K(const ArPose&)[m[K’
+[4.573s]   676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+[4.573s]       |   [01;36m[K^~~~~~[m[K
+[4.576s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::[01;32m[KsetApproach[m[K(ArPose)[m[K’:
+[4.576s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:196:42:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::[01;32m[Koperator=[m[K(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[4.576s]   196 |     { myApproachSet = true; myApproach = [01;35m[Kapproach[m[K; }
+[4.576s]       |                                          [01;35m[K^~~~~~~~[m[K
+[4.576s] [01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::[01;32m[KArPose[m[K(const ArPose&)[m[K’
+[4.576s]   676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+[4.576s]       |   [01;36m[K^~~~~~[m[K
+[4.662s] In file included from [01m[K/usr/local/Aria/include/ArActionColorFollow.h:33[m[K,
+[4.662s]                  from [01m[K/usr/local/Aria/include/ArActionGroups.h:30[m[K,
+[4.663s]                  from [01m[K/usr/local/Aria/include/Aria.h:57[m[K:
+[4.663s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[Kzoom[m[K(int)[m[K’:
+[4.663s] [01m[K/usr/local/Aria/include/ArPTZ.h:118:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.663s]   118 |   AREXPORT virtual bool zoom([01;35m[Kint zoomValue[m[K) { return false; }
+[4.663s]       |                              [01;35m[K~~~~^~~~~~~~~[m[K
+[4.663s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KzoomRel[m[K(int)[m[K’:
+[4.663s] [01m[K/usr/local/Aria/include/ArPTZ.h:120:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KzoomValue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.663s]   120 |   AREXPORT virtual bool zoomRel([01;35m[Kint zoomValue[m[K) { return false; }
+[4.664s]       |                                 [01;35m[K~~~~^~~~~~~~~[m[K
+[4.664s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KsetGain[m[K(double) const[m[K’:
+[4.664s] [01m[K/usr/local/Aria/include/ArPTZ.h:166:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.664s]   166 |   AREXPORT virtual bool setGain([01;35m[Kdouble gain[m[K) const { return false; }
+[4.664s]       |                                 [01;35m[K~~~~~~~^~~~[m[K
+[4.664s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::[01;32m[KgetGain[m[K(double) const[m[K’:
+[4.664s] [01m[K/usr/local/Aria/include/ArPTZ.h:168:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgain[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.665s]   168 |   AREXPORT virtual double getGain([01;35m[Kdouble gain[m[K) const { return 0; }
+[4.665s]       |                                   [01;35m[K~~~~~~~^~~~[m[K
+[4.665s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KsetFocus[m[K(double) const[m[K’:
+[4.665s] [01m[K/usr/local/Aria/include/ArPTZ.h:174:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.665s]   174 |   AREXPORT virtual bool setFocus([01;35m[Kdouble focus[m[K) const { return false; }
+[4.665s]       |                                  [01;35m[K~~~~~~~^~~~~[m[K
+[4.665s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual double ArPTZ::[01;32m[KgetFocus[m[K(double) const[m[K’:
+[4.665s] [01m[K/usr/local/Aria/include/ArPTZ.h:176:43:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfocus[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.665s]   176 |   AREXPORT virtual double getFocus([01;35m[Kdouble focus[m[K) const { return 0; }
+[4.665s]       |                                    [01;35m[K~~~~~~~^~~~~[m[K
+[4.666s] [01m[K/usr/local/Aria/include/ArPTZ.h:[m[K In member function ‘[01m[Kvirtual bool ArPTZ::[01;32m[KpacketHandler[m[K(ArBasePacket*)[m[K’:
+[4.666s] [01m[K/usr/local/Aria/include/ArPTZ.h:215:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpacket[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.667s]   215 |   AREXPORT virtual bool packetHandler([01;35m[KArBasePacket *packet[m[K) { return false; }
+[4.667s]       |                                       [01;35m[K~~~~~~~~~~~~~~^~~~~~[m[K
+[4.690s] In file included from [01m[K/usr/local/Aria/include/Aria.h:72[m[K:
+[4.690s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::[01;32m[KsetLinesAndVertex[m[K(std::map<int, ArLineFinderSegment*>*, ArPose)[m[K’:
+[4.690s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:191:18:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::[01;32m[Koperator=[m[K(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[4.690s]   191 |       myVertex = [01;35m[Kvertex[m[K;
+[4.690s]       |                  [01;35m[K^~~~~~[m[K
+[4.690s] In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:30[m[K,
+[4.691s]                  from [01m[K/usr/local/Aria/include/ArSerialConnection.h:30[m[K,
+[4.691s]                  from [01m[K/usr/local/Aria/include/Aria.h:30[m[K:
+[4.691s] [01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::[01;32m[KArPose[m[K(const ArPose&)[m[K’
+[4.691s]   676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+[4.691s]       |   [01;36m[K^~~~~~[m[K
+[4.694s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::[01;32m[KsetFinal[m[K(ArPose)[m[K’:
+[4.694s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:194:64:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::[01;32m[Koperator=[m[K(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[4.694s]   194 |     void setFinal(ArPose final) { myFinalSet = true; myFinal = [01;35m[Kfinal[m[K; }
+[4.694s]       |                                                                [01;35m[K^~~~~[m[K
+[4.694s] [01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::[01;32m[KArPose[m[K(const ArPose&)[m[K’
+[4.694s]   676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+[4.694s]       |   [01;36m[K^~~~~~[m[K
+[4.694s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:[m[K In member function ‘[01m[Kvoid ArActionTriangleDriveTo::Data::[01;32m[KsetApproach[m[K(ArPose)[m[K’:
+[4.694s] [01m[K/usr/local/Aria/include/ArActionTriangleDriveTo.h:196:42:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::[01;32m[Koperator=[m[K(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[4.694s]   196 |     { myApproachSet = true; myApproach = [01;35m[Kapproach[m[K; }
+[4.694s]       |                                          [01;35m[K^~~~~~~~[m[K
+[4.694s] [01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::[01;32m[KArPose[m[K(const ArPose&)[m[K’
+[4.694s]   676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+[4.695s]       |   [01;36m[K^~~~~~[m[K
+[4.726s] In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:31[m[K:
+[4.726s] [01m[K/usr/local/Aria/include/ArBasePacket.h:[m[K At global scope:
+[4.726s] [01m[K/usr/local/Aria/include/ArBasePacket.h:196:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ArBasePacket::[01;32m[KduplicatePacket[m[K(ArBasePacket*)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverloaded-virtual=-Woverloaded-virtual=]8;;[m[K]
+[4.726s]   196 |   AREXPORT virtual void [01;35m[KduplicatePacket[m[K(ArBasePacket *packet);
+[4.726s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.726s] In file included from [01m[K/usr/local/Aria/include/ArLMS2xx.h:30[m[K,
+[4.726s]                  from [01m[K/usr/local/Aria/include/ArSick.h:33[m[K,
+[4.726s]                  from [01m[K/usr/local/Aria/include/Aria.h:87[m[K:
+[4.726s] [01m[K/usr/local/Aria/include/ArLMS2xxPacket.h:78:25:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ArLMS2xxPacket::[01;32m[KduplicatePacket[m[K(ArLMS2xxPacket*)[m[K’
+[4.727s]    78 |   AREXPORT virtual void [01;36m[KduplicatePacket[m[K(ArLMS2xxPacket *packet);
+[4.727s]       |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.749s] [01m[K/usr/local/Aria/include/ArSick.h:[m[K In member function ‘[01m[Kvoid ArSick::[01;32m[KsetMinRange[m[K(unsigned int)[m[K’:
+[4.749s] [01m[K/usr/local/Aria/include/ArSick.h:206:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KminRange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.749s]   206 |   void setMinRange([01;35m[Kunsigned int minRange[m[K) { }
+[4.749s]       |                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.765s] [01m[K/usr/local/Aria/include/ArBasePacket.h:[m[K At global scope:
+[4.765s] [01m[K/usr/local/Aria/include/ArBasePacket.h:109:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ArBasePacket::[01;32m[Kbyte2ToBuf[m[K(ArTypes::Byte2)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverloaded-virtual=-Woverloaded-virtual=]8;;[m[K]
+[4.765s]   109 |   AREXPORT virtual void [01;35m[Kbyte2ToBuf[m[K(ArTypes::Byte2 val);
+[4.765s]       |                         [01;35m[K^~~~~~~~~~[m[K
+[4.765s] In file included from [01m[K/usr/local/Aria/include/Aria.h:91[m[K:
+[4.765s] [01m[K/usr/local/Aria/include/ArDPPTU.h:84:25:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ArDPPTUPacket::[01;32m[Kbyte2ToBuf[m[K(int)[m[K’
+[4.765s]    84 |   AREXPORT virtual void [01;36m[Kbyte2ToBuf[m[K(int val);
+[4.765s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[4.765s] [01m[K/usr/local/Aria/include/ArBasePacket.h:109:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ArBasePacket::[01;32m[Kbyte2ToBuf[m[K(ArTypes::Byte2)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverloaded-virtual=-Woverloaded-virtual=]8;;[m[K]
+[4.765s]   109 |   AREXPORT virtual void [01;35m[Kbyte2ToBuf[m[K(ArTypes::Byte2 val);
+[4.765s]       |                         [01;35m[K^~~~~~~~~~[m[K
+[4.765s] In file included from [01m[K/usr/local/Aria/include/Aria.h:92[m[K:
+[4.765s] [01m[K/usr/local/Aria/include/ArVCC4.h:149:25:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ArVCC4Packet::[01;32m[Kbyte2ToBuf[m[K(ArTypes::Byte4)[m[K’
+[4.766s]   149 |   AREXPORT virtual void [01;36m[Kbyte2ToBuf[m[K(ArTypes::Byte4 val);
+[4.766s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[4.842s] In file included from [01m[K/usr/local/Aria/include/ArDeviceConnection.h:31[m[K:
+[4.843s] [01m[K/usr/local/Aria/include/ArBasePacket.h:[m[K At global scope:
+[4.843s] [01m[K/usr/local/Aria/include/ArBasePacket.h:196:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ArBasePacket::[01;32m[KduplicatePacket[m[K(ArBasePacket*)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverloaded-virtual=-Woverloaded-virtual=]8;;[m[K]
+[4.843s]   196 |   AREXPORT virtual void [01;35m[KduplicatePacket[m[K(ArBasePacket *packet);
+[4.843s]       |                         [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.843s] In file included from [01m[K/usr/local/Aria/include/ArLMS2xx.h:30[m[K,
+[4.843s]                  from [01m[K/usr/local/Aria/include/ArSick.h:33[m[K,
+[4.843s]                  from [01m[K/usr/local/Aria/include/Aria.h:87[m[K:
+[4.843s] [01m[K/usr/local/Aria/include/ArLMS2xxPacket.h:78:25:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ArLMS2xxPacket::[01;32m[KduplicatePacket[m[K(ArLMS2xxPacket*)[m[K’
+[4.843s]    78 |   AREXPORT virtual void [01;36m[KduplicatePacket[m[K(ArLMS2xxPacket *packet);
+[4.843s]       |                         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.854s] In file included from [01m[K/usr/local/Aria/include/ArMapInterface.h:82[m[K,
+[4.855s]                  from [01m[K/usr/local/Aria/include/Aria.h:98[m[K:
+[4.855s] [01m[K/usr/local/Aria/include/ArMapObject.h:299:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.855s]   299 |   public std::[01;35m[Kbinary_function[m[K<const ArMapObject *,
+[4.855s]       |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.858s] [01m[K/usr/local/Aria/include/ArSick.h:[m[K In member function ‘[01m[Kvoid ArSick::[01;32m[KsetMinRange[m[K(unsigned int)[m[K’:
+[4.858s] [01m[K/usr/local/Aria/include/ArSick.h:206:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KminRange[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.858s]   206 |   void setMinRange([01;35m[Kunsigned int minRange[m[K) { }
+[4.858s]       |                    [01;35m[K~~~~~~~~~~~~~^~~~~~~~[m[K
+[4.859s] In file included from [01m[K/usr/include/c++/13/bits/unique_ptr.h:37[m[K,
+[4.859s]                  from [01m[K/usr/include/c++/13/memory:78[m[K,
+[4.859s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[4.859s]                  from [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include/PhiROS2Aria.hpp:4[m[K:
+[4.859s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.859s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.859s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.865s] In file included from [01m[K/usr/local/Aria/include/ArMapInterface.h:83[m[K:
+[4.865s] [01m[K/usr/local/Aria/include/ArMapUtils.h:370:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.865s]   370 | struct ArMapFileLineCompare : public std::[01;35m[Kbinary_function[m[K<const ArMapFileLine &, const ArMapFileLine &, bool>
+[4.865s]       |                                           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.865s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.865s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.865s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.867s] [01m[K/usr/local/Aria/include/ArMapUtils.h:453:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.867s]   453 | struct ArMapFileLineGroupCompare : public std::[01;35m[Kbinary_function[m[K<const ArMapFileLineGroup &,
+[4.867s]       |                                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.867s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.867s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.867s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.868s] [01m[K/usr/local/Aria/include/ArMapUtils.h:471:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.868s]   471 |                   public std::[01;35m[Kbinary_function[m[K<const ArMapFileLineGroup &,
+[4.868s]       |                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.868s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.868s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.868s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.868s] [01m[K/usr/local/Aria/include/ArBasePacket.h:[m[K At global scope:
+[4.868s] [01m[K/usr/local/Aria/include/ArBasePacket.h:109:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ArBasePacket::[01;32m[Kbyte2ToBuf[m[K(ArTypes::Byte2)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverloaded-virtual=-Woverloaded-virtual=]8;;[m[K]
+[4.868s]   109 |   AREXPORT virtual void [01;35m[Kbyte2ToBuf[m[K(ArTypes::Byte2 val);
+[4.868s]       |                         [01;35m[K^~~~~~~~~~[m[K
+[4.868s] In file included from [01m[K/usr/local/Aria/include/Aria.h:91[m[K:
+[4.868s] [01m[K/usr/local/Aria/include/ArDPPTU.h:84:25:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ArDPPTUPacket::[01;32m[Kbyte2ToBuf[m[K(int)[m[K’
+[4.868s]    84 |   AREXPORT virtual void [01;36m[Kbyte2ToBuf[m[K(int val);
+[4.869s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[4.870s] [01m[K/usr/local/Aria/include/ArBasePacket.h:109:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ArBasePacket::[01;32m[Kbyte2ToBuf[m[K(ArTypes::Byte2)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverloaded-virtual=-Woverloaded-virtual=]8;;[m[K]
+[4.870s]   109 |   AREXPORT virtual void [01;35m[Kbyte2ToBuf[m[K(ArTypes::Byte2 val);
+[4.870s]       |                         [01;35m[K^~~~~~~~~~[m[K
+[4.872s] In file included from [01m[K/usr/local/Aria/include/Aria.h:92[m[K:
+[4.872s] [01m[K/usr/local/Aria/include/ArVCC4.h:149:25:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ArVCC4Packet::[01;32m[Kbyte2ToBuf[m[K(ArTypes::Byte4)[m[K’
+[4.872s]   149 |   AREXPORT virtual void [01;36m[Kbyte2ToBuf[m[K(ArTypes::Byte4 val);
+[4.872s]       |                         [01;36m[K^~~~~~~~~~[m[K
+[4.927s] In file included from [01m[K/usr/local/Aria/include/ArMapInterface.h:82[m[K,
+[4.927s]                  from [01m[K/usr/local/Aria/include/Aria.h:98[m[K:
+[4.927s] [01m[K/usr/local/Aria/include/ArMapObject.h:299:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.927s]   299 |   public std::[01;35m[Kbinary_function[m[K<const ArMapObject *,
+[4.927s]       |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.935s] In file included from [01m[K/usr/include/c++/13/bits/unique_ptr.h:37[m[K,
+[4.936s]                  from [01m[K/usr/include/c++/13/memory:78[m[K,
+[4.936s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[4.936s]                  from [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include/PhiROS2Aria.hpp:4[m[K:
+[4.936s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.936s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.936s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.936s] In file included from [01m[K/usr/local/Aria/include/ArMapInterface.h:83[m[K:
+[4.936s] [01m[K/usr/local/Aria/include/ArMapUtils.h:370:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.936s]   370 | struct ArMapFileLineCompare : public std::[01;35m[Kbinary_function[m[K<const ArMapFileLine &, const ArMapFileLine &, bool>
+[4.936s]       |                                           [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.936s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.936s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.936s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.946s] [01m[K/usr/local/Aria/include/ArMapUtils.h:453:48:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.947s]   453 | struct ArMapFileLineGroupCompare : public std::[01;35m[Kbinary_function[m[K<const ArMapFileLineGroup &,
+[4.947s]       |                                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.947s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.947s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.947s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.947s] [01m[K/usr/local/Aria/include/ArMapUtils.h:471:31:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.947s]   471 |                   public std::[01;35m[Kbinary_function[m[K<const ArMapFileLineGroup &,
+[4.947s]       |                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.947s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.947s]   131 |     struct [01;36m[Kbinary_function[m[K
+[4.947s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.999s] In file included from [01m[K/usr/local/Aria/include/Aria.h:116[m[K:
+[4.999s] [01m[K/usr/local/Aria/include/ArActionMovementParameters.h:[m[K In member function ‘[01m[Kvoid ArActionMovementParameters::[01;32m[KenableOnceFromSector[m[K(ArMapObject*)[m[K’:
+[4.999s] [01m[K/usr/local/Aria/include/ArActionMovementParameters.h:53:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmapObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.999s]    53 |   AREXPORT void enableOnceFromSector([01;35m[KArMapObject *mapObject[m[K)
+[4.999s]       |                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[5.056s] In file included from [01m[K/usr/local/Aria/include/Aria.h:128[m[K:
+[5.056s] [01m[K/usr/local/Aria/include/ArLaserFilter.h:[m[K In member function ‘[01m[Kvirtual void* ArLaserFilter::[01;32m[KrunThread[m[K(void*)[m[K’:
+[5.056s] [01m[K/usr/local/Aria/include/ArLaserFilter.h:71:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.056s]    71 |   AREXPORT virtual void *runThread([01;35m[Kvoid *arg[m[K) { return NULL; }
+[5.056s]       |                                    [01;35m[K~~~~~~^~~[m[K
+[5.125s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include/PhiROS2Aria.hpp:[m[K In constructor ‘[01m[KPhiROS2Aria::[01;32m[KPhiROS2Aria[m[K()[m[K’:
+[5.125s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include/PhiROS2Aria.hpp:67:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KPhiROS2Aria::publish_sonar[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.126s]    67 |     bool [01;35m[Kpublish_sonar[m[K;
+[5.126s]       |          [01;35m[K^~~~~~~~~~~~~[m[K
+[5.126s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/include/PhiROS2Aria.hpp:50:29:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KArFunctorC<PhiROS2Aria> PhiROS2Aria::myPublishCB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.126s]    50 |     ArFunctorC<PhiROS2Aria> [01;35m[KmyPublishCB[m[K;
+[5.126s]       |                             [01;35m[K^~~~~~~~~~~[m[K
+[5.127s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.127s]     5 | [01;35m[KPhiROS2Aria[m[K::PhiROS2Aria() : Node("phi_aria_p3dx"),
+[5.127s]       | [01;35m[K^~~~~~~~~~~[m[K
+[5.141s] In file included from [01m[K/usr/local/Aria/include/Aria.h:116[m[K:
+[5.141s] [01m[K/usr/local/Aria/include/ArActionMovementParameters.h:[m[K In member function ‘[01m[Kvoid ArActionMovementParameters::[01;32m[KenableOnceFromSector[m[K(ArMapObject*)[m[K’:
+[5.141s] [01m[K/usr/local/Aria/include/ArActionMovementParameters.h:53:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KmapObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.141s]    53 |   AREXPORT void enableOnceFromSector([01;35m[KArMapObject *mapObject[m[K)
+[5.141s]       |                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~[m[K
+[5.191s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:[m[K In member function ‘[01m[Kvoid PhiROS2Aria::[01;32m[Kpublish[m[K()[m[K’:
+[5.192s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:259:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::list<ArSensorReading*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.192s]   259 |         for(int i=0;[01;35m[Ki<readings->size()/2[m[K;i++)
+[5.192s]       |                     [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[5.192s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:261:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr ArPose& ArPose::[01;32m[Koperator=[m[K(const ArPose&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+[5.192s]   261 |         poseTaken = (*it)->getPoseTaken([01;35m[K)[m[K;
+[5.192s]       |                                         [01;35m[K^[m[K
+[5.195s] [01m[K/usr/local/Aria/include/ariaUtil.h:676:3:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KArPose[m[K’ has user-provided ‘[01m[KArPose::[01;32m[KArPose[m[K(const ArPose&)[m[K’
+[5.195s]   676 |   [01;36m[KArPose[m[K(const ArPose &pose) :
+[5.195s]       |   [01;36m[K^~~~~~[m[K
+[5.206s] In file included from [01m[K/usr/local/Aria/include/Aria.h:128[m[K:
+[5.206s] [01m[K/usr/local/Aria/include/ArLaserFilter.h:[m[K In member function ‘[01m[Kvirtual void* ArLaserFilter::[01;32m[KrunThread[m[K(void*)[m[K’:
+[5.207s] [01m[K/usr/local/Aria/include/ArLaserFilter.h:71:42:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.207s]    71 |   AREXPORT virtual void *runThread([01;35m[Kvoid *arg[m[K) { return NULL; }
+[5.207s]       |                                    [01;35m[K~~~~~~^~~[m[K
+[5.220s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:[m[K In static member function ‘[01m[Kstatic bool PhiROS2Aria::[01;32m[KsimStatPacketHandler[m[K(ArRobotPacket*)[m[K’:
+[5.221s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:627:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ka[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.221s]   627 |         char [01;35m[Ka[m[K = packet->bufToByte(); // unused byte
+[5.221s]       |              [01;35m[K^[m[K
+[5.221s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:628:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kb[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.221s]   628 |         char [01;35m[Kb[m[K = packet->bufToByte(); // unused byte
+[5.221s]       |              [01;35m[K^[m[K
+[5.221s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:632:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksimint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.222s]   632 |         int [01;35m[Ksimint[m[K = packet->bufToUByte2();
+[5.222s]       |             [01;35m[K^~~~~~[m[K
+[5.222s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:633:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krealint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.222s]   633 |         int [01;35m[Krealint[m[K = packet->bufToUByte2();
+[5.222s]       |             [01;35m[K^~~~~~~[m[K
+[5.223s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:634:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klastint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.223s]   634 |         int [01;35m[Klastint[m[K = packet->bufToUByte2();
+[5.223s]       |             [01;35m[K^~~~~~~[m[K
+[5.223s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:639:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KrealZ[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.223s]   639 |         int [01;35m[KrealZ[m[K = packet->bufToByte4();
+[5.223s]       |             [01;35m[K^~~~~[m[K
+[5.244s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:672:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kuser[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.244s]   672 |         unsigned char [01;35m[Kuser[m[K = packet->bufToUByte(); // unused byte
+[5.244s]       |                       [01;35m[K^~~~[m[K
+[5.244s] [01m[K/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/phi_p3dx_aria/src/PhiROS2Aria.cpp:674:23:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kloaded[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.244s]   674 |         unsigned char [01;35m[Kloaded[m[K = packet->bufToUByte(); // unused byte
+[5.244s]       |                       [01;35m[K^~~~~~[m[K
+[18.391s] [100%] [32m[1mLinking CXX executable phi_p3dx[0m
+[19.849s] [100%] Built target phi_p3dx
+[19.903s] Invoked command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria -- -j12 -l12
+[19.932s] Invoking command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria
+[19.945s] -- Install configuration: ""
+[19.946s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/lib/phi_p3dx_aria/phi_p3dx
+[19.951s] -- Set non-toolchain portion of runtime path of "/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/lib/phi_p3dx_aria/phi_p3dx" to ""
+[19.952s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/ament_index/resource_index/package_run_dependencies/phi_p3dx_aria
+[19.952s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/ament_index/resource_index/parent_prefix_path/phi_p3dx_aria
+[19.953s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/ament_prefix_path.sh
+[19.953s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/ament_prefix_path.dsv
+[19.953s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/path.sh
+[19.953s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/environment/path.dsv
+[19.953s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.bash
+[19.954s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.sh
+[19.954s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.zsh
+[19.954s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/local_setup.dsv
+[19.954s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/package.dsv
+[19.955s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/ament_index/resource_index/packages/phi_p3dx_aria
+[19.955s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/cmake/phi_p3dx_ariaConfig.cmake
+[19.955s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/cmake/phi_p3dx_ariaConfig-version.cmake
+[19.956s] -- Installing: /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/install/phi_p3dx_aria/share/phi_p3dx_aria/package.xml
+[19.970s] Invoked command in '/home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cloud/robotica-ws/src/Robotica_movel_UFRGS/build/phi_p3dx_aria
